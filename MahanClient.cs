@@ -321,7 +321,7 @@ class MainForm : Form
         "aimassist","wallhack","tracers","nametags","esp","nofall","noslow","velocity","antikb",
         "antiknockback","bhop","speedhack","regen","blink","phase","noclip","nuker","tower","fastplace",
         "autoclicker","clicker","antiaim","autototem","bedaura","anchoraura","ghostclient","cheatclient",
-        // ⭐ X-Ray ماینکرفت — فقط الگوهای اختصاصی
+      فقط الگوهای اختصاصی
         "xray-mod","xray-fabric","xray-forge","xray-forge-mod",
         "xray-mod-fabric","xray-fabric-mod","xray-mod-forge",
         "xray_client","xrayclient","xray.client",
