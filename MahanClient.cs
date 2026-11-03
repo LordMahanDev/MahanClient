@@ -1253,7 +1253,7 @@ class MainForm : Form
         HashSet<string> hits = new HashSet<string>();
         string lowerPath = path.ToLowerInvariant();
 
-        // ⭐ Nادیده گرفتن پوشه‌های پروکسی (V2Ray, Xray-core, NekoRay, Hiddify, Clash, Sing-box, ...)
+ (V2Ray, Xray-core, NekoRay, Hiddify, Clash, Sing-box, ...)
         foreach (string skip in ProxyPathSkip)
         {
             if (lowerPath.Contains(skip)) return hits;
