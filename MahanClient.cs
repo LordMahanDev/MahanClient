@@ -219,7 +219,7 @@ class MainForm : Form
     HashSet<string> historySeen = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
     bool lastAccessEnabled = false;
 
-    // ⭐ لیست پروسه‌های پروکسی که هرگز چیت نیستن
+    
     static readonly HashSet<string> ProxyProcessWhitelist = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
     {
         "xray.exe", "xray",
@@ -233,7 +233,7 @@ class MainForm : Form
         "warp-svc.exe", "wireguard.exe",
     };
 
-    // ⭐ لیست مسیرهای پروکسی که هرگز چیت نیستن
+    
     static readonly string[] ProxyPathSkip = {
         "\\v2ray\\", "\\v2raya\\", "\\xray-core\\", "\\xray-core-",
         "\\nekoray\\", "\\nekobox\\", "\\hiddify\\",
@@ -272,7 +272,7 @@ class MainForm : Form
     const uint USN_REASON_FILE_DELETE = 0x200, USN_REASON_RENAME_OLD_NAME = 0x1000, USN_REASON_RENAME_NEW_NAME = 0x2000;
 
     static readonly string[] StrongSigs = {
-        // ⭐ X-Ray ماینکرفت (الگوهای اختصاصی، نه xray.exe پروکسی)
+        
         "xray-fabric","xray-forge","xray-mod","xray.client",
         "advancedxray","advanced-xray","minecraft-xray",
         "xraymod","xray.mod","xray_mod",
