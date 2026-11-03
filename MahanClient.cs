@@ -958,7 +958,7 @@ class MainForm : Form
     {
         foreach (Process p in procs)
         {
-            // ⭐ اگه پروسه پروکسی بود، اصلاً اسکنش نکن
+           
             try
             {
                 string procName = p.ProcessName.ToLowerInvariant();
